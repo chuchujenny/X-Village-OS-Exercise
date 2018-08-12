@@ -28,7 +28,7 @@ def producer(top_dir, queue_buffer):
         else:
             pass
         
-#學習如何在裡面加lock也可以執行，因為這個沒加居然也可以耶
+#多研究關於在裡面加lock的執行
 def consumer(queue_buffer):
     # search file in directory
     global file_count
